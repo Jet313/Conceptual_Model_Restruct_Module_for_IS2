@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/restruct_resource">        
+        <file alias="IS2CM">Resources/Screenshot_22.jpg</file>
+        <file alias="IS2Icon">Без имени-1.jpg</file>
+    </qresource>
+</RCC>

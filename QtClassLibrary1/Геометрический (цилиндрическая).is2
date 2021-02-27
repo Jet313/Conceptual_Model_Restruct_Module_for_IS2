@@ -1,0 +1,189 @@
+<project info="" name="New untitled project">
+ <user info="" name="IS-2 User"/>
+ <models>
+  <primaryModel>
+   <params LastID="0"/>
+   <objects LastID="0"/>
+   <spd>
+    <actions lastID="1">
+     <pd id="1" level="1" status="0" type="0" formalization="0" symbol="122" mark="" name="PD_1" number="1"/>
+    </actions>
+    <links/>
+   </spd>
+   <matrix/>
+  </primaryModel>
+  <ConceptModel>
+   <cs last_elem_id="22" last_link_id="0">
+    <elemets>
+     <pk id="1" group="3" autoRange="1" status="0" class="6" codingType="1" name="z1 - Число зубьев шестерни" number="1"/>
+     <pk id="2" group="3" autoRange="1" status="0" class="6" codingType="1" name="z2 - Число зубьев колеса" number="2"/>
+     <pk id="3" group="9" autoRange="1" status="0" class="6" codingType="1" name="m - Минимально допустимый модуль на выносливость по изгибу" number="1"/>
+     <pk id="4" group="5" autoRange="1" status="0" class="6" codingType="1" name="β - Угол наклона линии зуба по делительному цилиндру косозубой передачи" number="1"/>
+     <pk id="5" group="5" autoRange="1" status="0" class="6" codingType="1" name="at - Угол профиля зуба" number="2"/>
+     <pk id="6" group="5" autoRange="1" status="0" class="6" codingType="1" name="atw - Угол зацепления" number="3"/>
+     <pk id="7" group="5" autoRange="1" status="0" class="6" codingType="1" name="x∑ - Коэффициент суммы смещений" number="4"/>
+     <pk id="8" group="5" autoRange="1" status="0" class="6" codingType="1" name="x1 - Коэффициент смещения шестерни" number="5"/>
+     <pk id="9" group="5" autoRange="1" status="0" class="6" codingType="1" name="x2 - Коэффициент смещения колеса" number="6"/>
+     <pk id="10" group="5" autoRange="1" status="0" class="6" codingType="1" name="d1 - Делительный диаметр шестерни" number="7"/>
+     <pk id="11" group="5" autoRange="1" status="0" class="6" codingType="1" name="d2 - Делительный диаметр колеса" number="8"/>
+     <pk id="12" group="5" autoRange="1" status="0" class="6" codingType="1" name="dw1 - Начальный диаметр шестерни" number="9"/>
+     <pk id="13" group="5" autoRange="1" status="0" class="6" codingType="1" name="dw2 - Начальный диаметр колеса" number="10"/>
+     <pk id="14" group="5" autoRange="1" status="0" class="6" codingType="1" name="y - Коэффициент воспринимаемого смещения" number="11"/>
+     <pk id="15" group="5" autoRange="1" status="0" class="6" codingType="1" name="△y - Коэффициент уравнительного смещения" number="12"/>
+     <pk id="16" group="5" autoRange="1" status="0" class="6" codingType="1" name="da1 - Диаметр вершин зубьев шестерни" number="13"/>
+     <pk id="17" group="5" autoRange="1" status="0" class="6" codingType="1" name="da2 - Диаметр вершин зубьев колеса" number="14"/>
+     <pk id="18" group="5" autoRange="1" status="0" class="6" codingType="1" name="df1 - Диаметр впадин шестерни" number="15"/>
+     <pk id="19" group="5" autoRange="1" status="0" class="6" codingType="1" name="df2 - Диаметр впадин колеса" number="16"/>
+     <pk id="20" group="5" autoRange="1" status="0" class="6" codingType="1" name="a - Делительное межосевое расстояние" number="17"/>
+     <pk id="21" group="5" autoRange="1" status="0" class="6" codingType="1" name="aw - Межосевое расстояние" number="18"/>
+     <pk id="22" group="3" autoRange="1" status="0" class="6" codingType="1" name="u - Передаточное число" number="3"/>
+    </elemets>
+    <links/>
+   </cs>
+   <spz last_id="24">
+    <elemets>
+     <AElement id="1" level="1" status="1" type="2" formalization="2" symbol="99" name="Геометрический расчёт цилиндрической передачи" number="1"/>
+     <AElement id="2" level="2" status="1" type="2" formalization="2" symbol="99" name="Определение делительного межосевого расстояния" number="1"/>
+     <AElement id="3" level="2" status="1" type="2" formalization="2" symbol="99" name="Определение углов" number="2"/>
+     <AElement id="4" level="2" status="1" type="2" formalization="2" symbol="99" name="Определение диаметров вершин зубьев и впадин" number="6"/>
+     <AElement id="5" level="2" status="1" type="2" formalization="2" symbol="99" name="Определение коэффициентов смещений" number="5"/>
+     <AElement id="6" level="2" status="1" type="2" formalization="2" symbol="99" name="Определение начального и делительных диаметров" number="4"/>
+     <AElement id="7" level="2" status="1" type="2" formalization="2" symbol="99" name="Определени коэффициентов смещений шестерни и колеса" number="3"/>
+     <AElement id="8" level="3" status="0" type="0" formalization="1" symbol="99" name="Определение числа зубьев колеса, z2 специалистом" number="1"/>
+     <AElement id="9" level="3" status="0" type="0" formalization="0" symbol="99" name="Расчёт делительного межосевого расстояния, a" number="2"/>
+     <AElement id="10" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение угла профиля зуба, at" number="3"/>
+     <AElement id="11" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение угла зацепления, atw" number="4"/>
+     <AElement id="12" level="3" status="0" type="0" formalization="0" symbol="99" name="Определени коэффициентов cуммы смещений, x∑" number="5"/>
+     <AElement id="13" level="3" status="0" type="0" formalization="1" symbol="99" name="Определение коэффициента смещения шестерни, x1 специалистом" number="6"/>
+     <AElement id="14" level="3" status="0" type="0" formalization="1" symbol="99" name="Определение коэффициента смещения колеса, x2 специалистом" number="7"/>
+     <AElement id="15" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение делительного диаметра шестерни, d1" number="8"/>
+     <AElement id="16" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение делительного диаметра колеса, d2" number="9"/>
+     <AElement id="17" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение начального диаметра колеса, dw2" number="11"/>
+     <AElement id="18" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение начального диаметра шестерни, dw1" number="10"/>
+     <AElement id="19" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение коэффициента воспринимаемого смещения, y" number="12"/>
+     <AElement id="20" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение коэффициента уравнительного смещения, △y" number="13"/>
+     <AElement id="21" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение диаметра вершин зубьев шестерни, da1" number="14"/>
+     <AElement id="22" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение диаметра вершин зубьев колеса, da2" number="15"/>
+     <AElement id="23" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение диаметра впадин колеса, df2" number="17"/>
+     <AElement id="24" level="3" status="0" type="0" formalization="0" symbol="99" name="Определение диаметра впадин шестерни, df1" number="16"/>
+    </elemets>
+    <links>
+     <AElement id="0" e2="2" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="3" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="2" e1="1" type="3" name="" e3="3"/>
+     <AElement id="0" e2="3" e1="1" type="3" name="" e3="7"/>
+     <AElement id="0" e2="4" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="4" e1="1" type="3" name="" e3="0"/>
+     <AElement id="0" e2="5" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="5" e1="1" type="3" name="" e3="4"/>
+     <AElement id="0" e2="6" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="6" e1="1" type="3" name="" e3="5"/>
+     <AElement id="0" e2="7" e1="1" type="2" name="" e3="0"/>
+     <AElement id="0" e2="7" e1="1" type="3" name="" e3="6"/>
+     <AElement id="0" e2="8" e1="2" type="2" name="" e3="0"/>
+     <AElement id="0" e2="9" e1="2" type="2" name="" e3="0"/>
+     <AElement id="0" e2="8" e1="2" type="3" name="" e3="9"/>
+     <AElement id="0" e2="9" e1="2" type="3" name="" e3="0"/>
+     <AElement id="0" e2="10" e1="3" type="2" name="" e3="0"/>
+     <AElement id="0" e2="11" e1="3" type="2" name="" e3="0"/>
+     <AElement id="0" e2="10" e1="3" type="3" name="" e3="11"/>
+     <AElement id="0" e2="11" e1="3" type="3" name="" e3="0"/>
+     <AElement id="0" e2="12" e1="7" type="2" name="" e3="0"/>
+     <AElement id="0" e2="13" e1="7" type="2" name="" e3="0"/>
+     <AElement id="0" e2="12" e1="7" type="3" name="" e3="13"/>
+     <AElement id="0" e2="13" e1="7" type="3" name="" e3="14"/>
+     <AElement id="0" e2="14" e1="7" type="2" name="" e3="0"/>
+     <AElement id="0" e2="14" e1="7" type="3" name="" e3="0"/>
+     <AElement id="0" e2="15" e1="6" type="2" name="" e3="0"/>
+     <AElement id="0" e2="16" e1="6" type="2" name="" e3="0"/>
+     <AElement id="0" e2="15" e1="6" type="3" name="" e3="16"/>
+     <AElement id="0" e2="16" e1="6" type="3" name="" e3="18"/>
+     <AElement id="0" e2="17" e1="6" type="2" name="" e3="0"/>
+     <AElement id="0" e2="17" e1="6" type="3" name="" e3="0"/>
+     <AElement id="0" e2="18" e1="6" type="2" name="" e3="0"/>
+     <AElement id="0" e2="18" e1="6" type="3" name="" e3="17"/>
+     <AElement id="0" e2="19" e1="5" type="2" name="" e3="0"/>
+     <AElement id="0" e2="20" e1="5" type="2" name="" e3="0"/>
+     <AElement id="0" e2="19" e1="5" type="3" name="" e3="20"/>
+     <AElement id="0" e2="20" e1="5" type="3" name="" e3="0"/>
+     <AElement id="0" e2="21" e1="4" type="2" name="" e3="0"/>
+     <AElement id="0" e2="22" e1="4" type="2" name="" e3="0"/>
+     <AElement id="0" e2="21" e1="4" type="3" name="" e3="22"/>
+     <AElement id="0" e2="22" e1="4" type="3" name="" e3="24"/>
+     <AElement id="0" e2="23" e1="4" type="2" name="" e3="0"/>
+     <AElement id="0" e2="23" e1="4" type="3" name="" e3="0"/>
+     <AElement id="0" e2="24" e1="4" type="2" name="" e3="0"/>
+     <AElement id="0" e2="24" e1="4" type="3" name="" e3="23"/>
+    </links>
+   </spz>
+   <content>
+    <AElement id="0" power="1" e2="2" e1="8" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="20" e1="9" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="1" e1="9" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="2" e1="9" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="9" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="4" e1="9" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="5" e1="10" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="4" e1="10" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="6" e1="11" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="5" e1="11" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="20" e1="11" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="21" e1="11" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="7" e1="12" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="1" e1="12" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="2" e1="12" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="5" e1="12" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="6" e1="12" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="8" e1="13" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="9" e1="14" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="10" e1="15" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="1" e1="15" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="15" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="4" e1="15" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="11" e1="16" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="4" e1="16" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="16" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="2" e1="16" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="12" e1="18" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="21" e1="18" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="22" e1="18" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="13" e1="17" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="22" e1="17" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="21" e1="17" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="14" e1="19" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="21" e1="19" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="20" e1="19" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="19" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="15" e1="20" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="7" e1="20" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="14" e1="20" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="16" e1="21" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="10" e1="21" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="8" e1="21" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="15" e1="21" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="21" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="17" e1="22" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="11" e1="22" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="8" e1="22" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="22" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="15" e1="22" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="18" e1="24" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="15" e1="24" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="24" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="8" e1="24" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="19" e1="23" type="4" char="42" name="" e3="0"/>
+    <AElement id="0" power="1" e2="9" e1="23" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="3" e1="23" type="4" char="43" name="" e3="0"/>
+    <AElement id="0" power="1" e2="11" e1="23" type="4" char="43" name="" e3="0"/>
+   </content>
+  </ConceptModel>
+ </models>
+ <ModuleParams>
+  <Module name="CSauto">
+   <param blocks="&lt;blocks/>&#xa;"/>
+  </Module>
+  <Module name="SPZAuto">
+   <param decStr="c21;c22;c23;c24;c25;c26;"/>
+  </Module>
+ </ModuleParams>
+</project>

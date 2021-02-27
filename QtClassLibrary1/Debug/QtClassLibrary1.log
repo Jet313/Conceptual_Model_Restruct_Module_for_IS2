@@ -1,6 +1,8 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (QtClassLibrary1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (QtClassLibrary1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  QtClassLibrary1.vcxproj -> C:\IS_OUTPUT\Debug\modules\CM_Restruct.dll
-  QtClassLibrary1.vcxproj -> C:\IS_OUTPUT\Debug\modules\CM_Restruct.pdb (Full PDB)
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (QtClassLibrary1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (QtClassLibrary1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  RestructurizationMain.cpp
+H:\QT\5.9.1\msvc2015\include\QtCore\qalgorithms.h(847,38): error C3615: Функция constexpr "qCountLeadingZeroBits" не может возвращать константное выражение в качестве результата
+H:\QT\5.9.1\msvc2015\include\QtCore\qalgorithms.h(858,28): message : сбой был вызван неопределенной функцией или функцией, не объявленной как "constexpr"
+H:\QT\5.9.1\msvc2015\include\QtCore\qalgorithms.h(858,28): message : см. использование "qPopulationCount"
